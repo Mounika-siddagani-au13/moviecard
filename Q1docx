@@ -1,0 +1,42 @@
+1.	What are the major features of Reactjs
+Reactjs is the javascript library or ui library.it is developed by facebook, it is open source and released in 2013
+Applications of Reactjs:
+Reactjs is used to developed single page web Applications and mobile applications . It is a powerful library that is optimal for fetching data which is rapidly changing. Its main function is data rendering.
+
+2.	How is Element and Component different
+React Element - It is a simple object that describes a DOM node and its attributes or properties you can say. 
+It is an immutable description object and you can not apply any methods on it. React Component - 
+It is a function or class that accepts an input and returns a React element.
+
+3.	What are the different phases of component lifecycle
+Each component in React has a lifecycle which you can monitor and manipulate during its three main phases.
+The three phases are: Mounting, Updating, and Unmounting.
+
+4.	What are the lifecycle methods of React
+React Lifecycle methods allow us to specify what happens in your Document Object Model (DOM) at predetermined times of the Lifecycle. Remember that the main purpose of React is 
+to modify the DOM (Document Object Model) to match what components you want to render onto the screen.
+
+5.	What are different ways to create components in ReactJS
+There are two main types of components in React. Class Components and Functional Components. 
+The difference is pretty obvious. Class components are ES6 classes and Functional Components are functions.
+
+NodeJS:-
+1. What is NodeJs and what is usage?
+Node. js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node. js uses an event-driven, non-blocking I/O model that makes 
+it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
+
+2) What is the use of NODE_ENV?
+NODE_ENV is an environment variable popularized by the Express framework. It specifies the environment in which an 
+application is running such as development, staging, production, testing, etc
+
+3) What is Event loop in NodeJS and how does it works?
+Event loop is an endless loop, which waits for tasks, executes them and then sleeps until it receives more tasks. The event loop executes tasks from the event queue only when the 
+call stack is empty i.e. there is no ongoing task. The event loop allows us to use callbacks and promises.
+
+4) What is the difference between aynchronous and non-blocking?
+few major differences are:1) Asynchronous does not respond immediately, While Nonblocking responds immediately if the data is available and if not that simply returns an error. 2) Asynchronous improves 
+the efficiency by doing the task fast as the response might come later, meanwhile, can do complete other tasks.
+
+5) Differentiate between readFile vs createREadStream in nodejs?
+readfile loads the whole file into the memory you pointed out, the fs. createReadStream, on the other hand, reads the entire file in chunks of sizes that you specified
+readfile, however, reads the whole file first before it's sent to the client.
